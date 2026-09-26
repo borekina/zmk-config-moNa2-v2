@@ -38,8 +38,8 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - {t: TAB, h: NUMBER}
-  - {t: SPACE, h: SYMBOL}
-  - {t: ESC, h: MOUSE}
+  - {t: SPACE, h: MOUSE}
+  - {t: ESC, h: SYMBOL}
   - BACKSPACE
   - {t: ENTER, h: SYMBOL}
   - BLUETOOTH
@@ -93,8 +93,8 @@ layers:
   - $
   - '%'
   - {t: ▽, type: trans}
-  - (
-  - )
+  - '&par'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&', h: LEFT SHIFT}
@@ -124,8 +124,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,8 +167,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
