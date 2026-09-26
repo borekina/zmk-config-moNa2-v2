@@ -42,7 +42,7 @@ layers:
   - {t: ESC, h: MOUSE}
   - BACKSPACE
   - ENTER
-  - {t: BLUETOOTH, h: toggle}
+  - BLUETOOTH
   NUMBER:
   - KP SLASH
   - KP 7
@@ -257,4 +257,4 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - {t: '&studio_unlock', type: held}
