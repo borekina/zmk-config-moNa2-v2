@@ -88,8 +88,6 @@
     active-layers = <0x000000D0>;
     scale-multiplier = <1>;
     scale-divisor = <1>;   /* Studio UI の倍率がそのまま実効値 (1.0x基準)。固定減速は listener 側 zip_scroll_scaler */
-    /* Y軸方向のスクロール反転 */
-    invert-y = <1>;
 };
 
 &mouse_runtime_input_processor {
