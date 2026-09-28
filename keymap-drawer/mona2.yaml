@@ -64,7 +64,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: MOUSE_W}
+  - {t: ;, h: MOUSE_M}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -236,7 +236,7 @@ layers:
   - '&mkp MB1'
   - SCRL_M
   - '&mkp MB2'
-  - Ctl+SPACE
+  - {t: Ctl+SPACE, type: held}
   - {t: KP 0, h: LEFT SHIFT}
   - Gui+Ctl+Z
   - DOWN ARROW
@@ -253,7 +253,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
   - BACKSPACE
