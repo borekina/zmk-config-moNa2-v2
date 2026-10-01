@@ -1,0 +1,101 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+        win {
+            bindings = <
+                &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &kp I    &kp O    &kp P    &kp A    &kp S
+                &kp D    &kp F    &kp G    &kp MINUS    &kp H    &kp J    &kp K    &kp L    &lt 4 SEMICOLON    &mt LEFT_SHIFT Z    &kp X    &kp C
+                &kp V    &kp B    &kp 34013235    &kp SEMICOLON    &kp N    &kp M    &kp COMMA    &kp PERIOD    &lt 10 SLASH    &kp RIGHT_CONTROL    &kp LEFT_GUI    &kp LEFT_ALT
+                &lt 2 GRAVE    &lt 4 SPACE    &lt 6 MINUS    &kp RETURN    &kp BACKSPACE    &kp RIGHT_SHIFT
+            >;
+        };
+        mac {
+            bindings = <
+                &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &kp I    &kp O    &lt 7 P    &kp A    &mt LEFT_CONTROL S
+                &mt LEFT_ALT D    &mt LEFT_GUI F    &kp G    &kp MINUS    &kp H    &mt RIGHT_GUI J    &mt RIGHT_ALT K    &mt RIGHT_CONTROL L    &lt 5 SEMICOLON    &mt LEFT_SHIFT Z    &kp X    &kp C
+                &kp V    &kp B    &kp 34013235    &kp SQT    &kp N    &kp M    &kp COMMA    &kp PERIOD    &mt RIGHT_SHIFT SLASH    &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI
+                &lt 3 LANG2    &lt 5 SPACE    &lt 7 LANG1    &kp BACKSPACE    &kp RETURN    &mo 11
+            >;
+        };
+        num-w {
+            bindings = <
+                &kp ESCAPE    &kp 34013214    &kp 34013215    &kp 34013216    &kp 34013217    &kp EQUAL    &kp N7    &kp N8    &kp N9    &kp 34013221    &kp TAB    &kp 34013218
+                &kp 34013219    &kp 34013220    &kp 34013221    &kp 34013218    &kp N0    &kp N4    &kp N5    &kp N6    &kp MINUS    &kp 34013233    &kp 34013222    &kp 34013223
+                &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &trans    &kp 34013230    &kp PERIOD    &kp N1    &kp N2    &kp N3    &kp SLASH    &kp LEFT_CONTROL    &kp LEFT_GUI    &kp LEFT_ALT
+                &trans    &trans    &trans    &kp RETURN    &kp BACKSPACE    &kp RIGHT_SHIFT
+            >;
+        };
+        num-m {
+            bindings = <
+                &kp ESCAPE    &kp 34013214    &kp 34013215    &kp 34013216    &kp 34013217    &kp EQUAL    &kp N7    &kp N8    &kp N9    &kp 34013221    &kp TAB    &kp 34013218
+                &kp 34013219    &kp 34013220    &kp 34013221    &kp 34013218    &kp N0    &kp N4    &kp N5    &kp N6    &kp MINUS    &kp 34013233    &kp 34013222    &kp 34013223
+                &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &trans    &kp 34013230    &kp PERIOD    &kp N1    &kp N2    &kp N3    &kp SLASH    &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI
+                &trans    &trans    &trans    &kp BACKSPACE    &kp RETURN    &kp RIGHT_SHIFT
+            >;
+        };
+        mouse-w {
+            bindings = <
+                &kp PAGE_UP    &trans    &kp UP    &trans    &kp PAGE_DOWN    &trans    &trans    &trans    &trans    &trans    &kp HOME    &kp LEFT
+                &kp DOWN    &kp RIGHT    &kp END    &trans    &trans    &mkp MB1    &mkp MB3    &mkp MB2    &trans    &trans    &trans    &screenshot
+                &trans    &trans    &trans    &trans    &trans    &mkp MB4    &mo 6    &mkp MB5    &trans    &kp LEFT_CONTROL    &trans    &trans
+                &trans    &trans    &trans    &kp RETURN    &kp BACKSPACE    &trans
+            >;
+        };
+        mouse-m {
+            bindings = <
+                &kp PAGE_UP    &trans    &kp UP    &trans    &kp PAGE_DOWN    &trans    &trans    &trans    &trans    &trans    &kp HOME    &kp LEFT
+                &kp DOWN    &kp RIGHT    &kp END    &trans    &trans    &mkp MB1    &mkp MB3    &mkp MB2    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &mkp MB4    &mo 7    &mkp MB5    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &kp BACKSPACE    &kp RETURN    &trans
+            >;
+        };
+        scrl-w {
+            bindings = <
+                &kp ESCAPE    &kp 50790443    &kp UP    &kp 17236011    &trans    &trans    &trans    &mkp MB3    &trans    &trans    &kp HOME    &kp LEFT
+                &kp DOWN    &kp RIGHT    &kp END    &out OUT_TOG    &trans    &mkp MB1    &trans    &mkp MB2    &trans    &kp LEFT_SHIFT    &kp 168230992    &trans
+                &kp 168230991    &trans    &trans    &trans    &trans    &mkp MB1    &trans    &mkp MB2    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans
+            >;
+        };
+        scrl-m {
+            bindings = <
+                &kp PAGE_UP    &trans    &kp UP    &trans    &kp PAGE_UP    &trans    &trans    &trans    &trans    &trans    &kp HOME    &kp LEFT
+                &kp DOWN    &kp RIGHT    &kp END    &out OUT_TOG    &trans    &mkp MB1    &mkp MB3    &mkp MB2    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &mkp MB4    &trans    &mkp MB5    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans
+            >;
+        };
+        fn-w {
+            bindings = <
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans
+            >;
+        };
+        fn-m {
+            bindings = <
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans
+            >;
+        };
+        ble-w {
+            bindings = <
+                &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &bt0    &bt1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &kp F6    &kp F7
+                &kp F8    &kp F9    &trans    &out OUT_TOG    &trans    &trans    &trans    &trans    &studio_unlock    &trans    &kp N1    &kp N2
+                &kp N3    &trans    &trans    &bootloader    &trans    &trans    &trans    &trans    &bt BT_CLR    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &bootloader    &bt BT_CLR_ALL
+            >;
+        };
+        ble-m {
+            bindings = <
+                &trans    &trans    &trans    &trans    &trans    &bt0    &bt1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &trans    &trans
+                &trans    &trans    &trans    &out OUT_TOG    &trans    &trans    &trans    &trans    &bt BT_CLR    &trans    &trans    &trans
+                &trans    &trans    &trans    &bootloader    &trans    &trans    &trans    &trans    &bt BT_CLR_ALL    &trans    &trans    &trans
+                &trans    &trans    &trans    &studio_unlock    &bootloader    &trans
+            >;
+        };
+    };
+};
